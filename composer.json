@@ -1,0 +1,50 @@
+{
+    "name": "fignon/fignon-view-engine",
+    "description": "The Fignon View Engine package is a simple abstract class you can extends to include easily any php template engine into Fignon.",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fignon\\Extra\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Dah-kenangnon",
+            "email": "dah-kenangnon@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/FignonPhp/fignon-view-engineFignon",
+    "support": {
+        "issues": "https://github.com/FignonPhp/fignon-view-engine/issues",
+        "source": "https://github.com/FignonPhp/fignon-view-engine",
+        "docs": "https://github.com/FignonPhp/fignon-view-enginefignon-view-engine/README.md"
+    },
+    "keywords": [
+        "php",
+        "tunnel",
+        "middleware",
+        "chain",
+        "runner",
+        "http",
+        "request",
+        "response",
+        "website",
+        "rest",
+        "api",
+        "restful",
+        "rest-api",
+        "php-framework",
+        "php-middleware"
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
